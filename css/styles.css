@@ -45,7 +45,7 @@ body {
   font-size: 16px;
   font-size: 1rem;
   line-height: 24px;
-  background: #fa8f1c url(../img/bg-orange.png);
+  background: #337ab7 url(../img/bg-orange.png);
 }
 /* =1.3 - Links
 --------------------------------------------------------*/
@@ -273,12 +273,12 @@ hr {
   color: #333;
   text-align: center;
   text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75);
-  background-color: #F5F5F5;
+ /* background-color: #F5F5F5;
   background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
   background-repeat: repeat-x;
   border-width: 1px;
   border-style: solid;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #b3b3b3;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #b3b3b3;*/
   border-radius: 4px;
   box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
@@ -376,7 +376,7 @@ hr {
 #add-site input {
   width: 100%;
   padding: 4px 6px;
-  border: 1px solid #CCC;
+  /*border: 1px solid #CCC;*/
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
   line-height: 24px;
@@ -386,15 +386,15 @@ hr {
   position: relative;
   display: inline-block;
   padding: 4px 12px;
-  color: #333;
+  color: white;
   text-align: center;
   text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75);
-  background-color: #F5F5F5;
+  /*background-color: #F5F5F5;
   background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
   background-repeat: repeat-x;
   border-width: 1px;
   border-style: solid;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #b3b3b3;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #b3b3b3;*/
   border-radius: 4px;
   box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05);
   margin-top: 20px;
@@ -407,15 +407,15 @@ hr {
   position: relative;
   display: inline-block;
   padding: 4px 12px;
-  color: #333;
+  color: white;
   text-align: center;
-  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75);
+  /*text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75);
   background-color: #F5F5F5;
   background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
   background-repeat: repeat-x;
   border-width: 1px;
   border-style: solid;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #b3b3b3;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #b3b3b3;*/
   border-radius: 4px;
   box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05);
   margin-top: 15px;
@@ -427,6 +427,7 @@ hr {
 }
 #add-site #login-details {
   padding-top: 40px;
+  text-align:center;
 }
 #add-site #login-credentials {
   display: none;
@@ -513,7 +514,7 @@ hr {
   height: 44px;
   line-height: 44px;
   overflow: hidden;
-  background: #fa8f1c;
+  background: #337ab7;
   border-bottom: 0;
 }
 .header-main .nav-main {
@@ -595,13 +596,13 @@ hr {
 /* - User menu on the left panel
 -------------------------------------------------------------------------- */
 .user-menu {
-  background: #fa8f1c;
+  background: #337ab7;
   padding-bottom: 40px;
   height: auto;
 }
 .user-menu header {
   padding: 10px;
-  background: #fa8f1c;
+  background: #337ab7;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
@@ -1182,12 +1183,12 @@ hr {
 }
 .path-messages .conversation .conversation-area .bubble-alt {
   background-color: #ffffff;
-  border-color: #fa8f1c;
+  border-color: #337ab7;
   float: right;
 }
 .path-messages .conversation .conversation-area .bubble-alt:before {
   border-color: transparent;
-  border-left-color: #fa8f1c;
+  border-left-color: #337ab7;
   left: auto;
   right: -16px;
 }
@@ -1586,7 +1587,7 @@ hr {
   letter-spacing: .5px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   padding: 10px;
-  background-color: #fa8f1c;
+  background-color: #337ab7;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0;
@@ -1901,7 +1902,7 @@ div.jqi button.jqidefaultbutton {
   width: 100% !important;
   height: 100%;
   margin-top: 0 !important;
-  background-color: #fa8f1c;
+  background-color: #337ab7;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -1917,3 +1918,7 @@ div.jqi button.jqidefaultbutton {
 }
 .logo{
 width:auto;}
+
+#helplogin p{
+color:white;
+text-align:center;}

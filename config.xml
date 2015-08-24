@@ -5,10 +5,10 @@
         id        = "com.moodle.moodlemobile"
         versionCode = "391"
         version   = "1.15">
-    <name>Moodle Mobile</name>
+    <name>Aula Virtual Tecnologico</name>
 
     <description>
-        Moodle Mobile official app
+        Tecnologico-Aula Virtual
     </description>
 
     <author href="http://moodle.com" email="juan@moodle.com">
@@ -58,7 +58,7 @@
     <icon src="img/icon/ios/icon-57@2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="img/icon/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
 
-    <gap:splash src="img/splash/android/android_ldpi_portrait.png.png" gap:platform="android" gap:density="ldpi"/>
+    <gap:splash src="img/splash/android/android_ldpi_portrait.png" gap:platform="android" gap:density="ldpi"/>
     <gap:splash src="img/splash/android/android_mdpi_portrait.png" gap:platform="android" gap:density="mdpi"/>
     <gap:splash src="img/splash/android/android_hdpi_portrait.png" gap:platform="android" gap:density="hdpi"/>
     <gap:splash src="img/splash/android/android_xhdpi_portrait.png" gap:platform="android" gap:density="xhdpi"/>

@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title></title>
     <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/bootstrap331/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome4.2.0/css/font-awesome.min.css">
+	
+	
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/styles.css">
     <script language="javascript">
@@ -337,26 +341,30 @@
     <div id="login-details">
 	 <img src="img/login-logo.png" alt="Moodle" class="logo">
         <p>
-            <input type="url" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
+            <input type="url" id="url" class="form-control" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
         </p>
         <div id="login-credentials">
             <p>
-                <input type="text" id="username" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("username") %>">
+                <input type="text" class="form-control" id="username" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("username") %>">
             </p>
             <p>
-                <input type="password" id="password" placeholder="<%= MM.lang.s("password") %>">
+                <input type="password" class="form-control" id="password" placeholder="<%= MM.lang.s("password") %>">
             </p>
         </div>
         <p>
-            <input type="submit" name="add"   id="addsitebutton"   value="<%= MM.lang.s("add") %>">
-            <input type="button" name="reset" id="resetsitebutton" value="<%= MM.lang.s("reset") %>">
+            <input type="submit" class="btn btn-primary" name="add"   id="addsitebutton"   value="<%= MM.lang.s("add") %>">
+            <input type="button" class="btn btn-success" name="reset" id="resetsitebutton" value="<%= MM.lang.s("reset") %>">
         </p>
     </div>
 </form>
-<div id= "helplogin">
-    <a href="#helpmelogin"><%= MM.lang.s("icantlogin") %></a>
+<div id="helplogin" >
+
+<p>url:&nbsp;aula.inatec.edu.ni</p>
+<p><i class="fa fa-envelope-o"></i>&nbsp;aulav@inatec.edu.ni</p>
+   <!-- <a href="#helpmelogin"><%= MM.lang.s("icantlogin") %></a>
     <a href="#manage-accounts"><%= MM.lang.s("manageaccounts") %></a>
-</div>
+-->
+	</div>
 </script>
 
 <script type="text/template" id="manage-accounts_template">
